@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/sleeplessinc/gdrv.git"
   },
-  "author": "Joe Hitchens",
+  "author": "Joe Hitchens <joe@sleepless.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sleeplessinc/gdrv/issues"
