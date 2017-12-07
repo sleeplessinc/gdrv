@@ -2,13 +2,11 @@
 
 REST API for accessing Google Drive documents.
 
-## Usage
-
-Install:
+## Install
 
 	npm install gdrv
 
-Node:
+## Node.js
 
 	gdrv = require("gdrv");
 	document = gdrv("document");
