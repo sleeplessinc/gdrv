@@ -8,7 +8,9 @@ module.exports = function(sub_module_name) {
 		try {
 			sub_module = require("./sub_modules/"+sub_module_name);
 			sub_modules[sub_module_name] = sub_module;
-		} catch(e) { }
+		} catch(e) {
+			throw new Error("Invalid sub_module name: "+sub_module_name);
+		}
 	}
 	return sub_module;
 };
