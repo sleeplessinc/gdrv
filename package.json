@@ -1,6 +1,6 @@
 {
   "name": "gdrv",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Google Drive Interface",
   "main": "index.js",
   "scripts": {
